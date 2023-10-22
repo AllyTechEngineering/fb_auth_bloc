@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "550368483526",
+    "project_id": "udemy-flutter-bloc-auth",
+    "storage_bucket": "udemy-flutter-bloc-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550368483526:android:4dee078722c47a79f09fc7",
+        "android_client_info": {
+          "package_name": "com.example.fb_auth_bloc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeF-R1eVAGoy9LLkXGyZaxXbWWvFRqF14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

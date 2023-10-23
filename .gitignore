@@ -10,7 +10,7 @@
 .svn/
 migrate_working_dir/
 lib/firebase_options.dart
-# /Users/Admin/Documents/DevelopmentProjects/UdemyBlocClass/fb_auth_bloc/lib/firebase_options.dart
+
 
 # IntelliJ related
 *.iml

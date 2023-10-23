@@ -1,4 +1,3 @@
-
 part of 'auth_bloc.dart';
 
 enum AuthStatus {
@@ -9,11 +8,16 @@ enum AuthStatus {
 
 class AuthState extends Equatable {
   final AuthStatus authStatus; //enum AuthStatus
-  final fbAuth.User? user; // in AuthBLoc: import 'package:firebase_auth/firebase_auth.dart' as fbAuth;
-  const AuthState({
+  final fbAuth.User?
+      user; // in AuthBLoc: import 'package:firebase_auth/firebase_auth.dart' as fbAuth;
+  AuthState({
     required this.authStatus,
     this.user,
   });
+
+  factory AuthState.unknown() {
+    return AuthState(authStatus: AuthStatus.unknown);
+  }
 
   @override
   List<Object?> get props => [authStatus, user];
@@ -30,6 +34,5 @@ class AuthState extends Equatable {
       user: user ?? this.user,
     );
   } //AuthState
-  
 } //class AuthState
 

@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
                 height: 20.0,
               ),
               Text(
-                'Bloc is an awesome\nstate management library\nforflutter!',
+                'Bloc is an awesome\nstate management library\nfor flutter!',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 24.0),
               )
